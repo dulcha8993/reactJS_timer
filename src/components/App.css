@@ -1,0 +1,85 @@
+body {
+  background:#2C3E50;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.clock-bar {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.clock-back {
+  width: 100%;
+  background: #fff;
+  margin: 30px auto;
+  position: relative;
+}
+
+
+.clock {
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.top-Margins{
+  margin-top: 20px;
+}
+.clock span{
+  background:#00ABA9;
+  color: #fff;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.clock .clock-btn {
+  background: #fff;
+  margin-top: 30px;
+  margin-left: 5px;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 150px;
+  transition: background 1s;
+  cursor: pointer;
+}
+.clock .clock-btn-red{
+  border: 2px solid #C85454;
+  color: #C85454;
+}
+.clock .clock-btn-yel{
+  border: 2px solid #FFC900;
+  color: #FFC900;
+}
+
+.clock .clock-btn-gre{
+  border: 2px solid #00ABA9;
+  color: #00ABA9;
+}
+.clock .clock-btn-red:hover {
+  background: #C85454;
+  border: 2px solid #C85454;
+  color: #fff;
+}
+.clock .clock-btn-yel:hover {
+  background: #FFC900;
+  border: 2px solid #FFC900;
+  color: #fff;
+}
+.clock .clock-btn-gre:hover {
+  background: #00ABA9;
+  border: 2px solid #00ABA9;
+  color: #fff;
+}
